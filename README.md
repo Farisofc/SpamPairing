@@ -10,6 +10,8 @@ How To Run?
 - $ npm i
 - $ npm start
 
+Cara menghentikan spam tekan ctrl + c
+
 jika error connection closed ketik command rm -rf authState dan jalankan ulang
 
 # Please Follow My Social Media
