@@ -14,4 +14,5 @@ jika connection closed ketik command rm -rf authState dan jalankan ulang
 # Please Follow My Social Media
 - My Tiktok: https://tiktok.com/@lezzzdcoder
 
+# Peringatan
 ⚠️ Jangan Di Salah Gunakan Sayang ⚠️
