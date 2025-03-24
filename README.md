@@ -10,7 +10,7 @@ How To Run?
 - $ npm i
 - $ npm start
 
-jika connection closed ketik command rm -rf authState dan jalankan ulang
+jika error connection closed ketik command rm -rf authState dan jalankan ulang
 
 # Please Follow My Social Media
 - My Tiktok: https://tiktok.com/@lezzzdcoder
