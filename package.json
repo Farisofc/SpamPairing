@@ -1,0 +1,22 @@
+{
+  "name": "Spam Pairing",
+  "version": "1.0.0",
+  "description": "Made By Lezz DcodeR",
+  "main": "index.js",
+    "scripts": {
+    "start": "node index.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.16",
+    "awesome-phonenumber": "^7.4.0",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "figlet": "^1.8.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "open": "^10.1.0",
+    "pino": "^9.6.0",
+    "readline-sync": "^1.4.10"
+  }
