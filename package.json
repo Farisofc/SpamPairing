@@ -9,7 +9,7 @@
   "type": "commonjs",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "^6.7.16",
+    "@whiskeysockets/baileys": "github:nstar-y/Bail",
     "awesome-phonenumber": "^7.4.0",
     "chalk": "^4.1.2",
     "child_process": "^1.0.2",
